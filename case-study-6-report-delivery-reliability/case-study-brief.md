@@ -16,7 +16,9 @@ This exercise mirrors a real Forward Deployed Engineer (FDE) engagement: a custo
 
 **Note:** Sam's ask is intentionally incomplete. You will need to decide things like: which status values actually represent a failure, how many retries is reasonable before escalating to a human, and how this approach would need to change as the number of tenants and reports grows. **Document whatever assumptions you make.**
 
-## What we're providing you
+## What we're providing youed_out`, and `error`.
+4. `failed`, `timed_out`, and `error` are failures. `error` is missing from the starter helper.
+5. `running`, `in_progress`, `queued`, and `pendin
 
 - A seed dataset of realistic (synthetic) job-attempt logs across 6 tenants and 12 logical report runs over a 2-week period.
 - A minimal starter repository scaffold with basic failure-detection and retry helpers, so you're not starting from a completely blank page.

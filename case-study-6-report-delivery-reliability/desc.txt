@@ -1,0 +1,81 @@
+
+CASE STUDY 6
+MERIDIAN PAYMENTS
+Generates scheduled financial statements for business customers. A job runner logs every attempt.
+"Every so often a tenant’s scheduled report just… doesn’t show up, and we only find out when they email asking where it is. Our job runner logs every attempt with a status, but nobody’s proactively watching it.
+I want something that looks at our job history, works out which report runs never succeeded, and ideally retries the ones that are safe to retry, before a customer notices. What counts as ‘failed’ isn’t consistent in our logs — part of the mess I’m hoping you can untangle."
+— Sam Okafor, Head of Platform Reliability
+THE ASK IS DELIBERATELY
+You decide — and document — which values really mean failure, how many retries reasonable before escalating to a human, the approach changes as tenants and grow.
+WHAT WE'RE EVALUATING
+•
+Handling ambiguity
+•
+Soundness of design judgment
+•
+Building under real constraints
+•
+Clarity of your reasoning
+•
+Response when challenged
+Provided: synthetic job-attempt logs across 6 and 12 report runs, plus a starter repo.
+
+
+
+What You Build & What You Submit
+COMMON TO ALL CASE STUDIES
+YOU HAVE FREEDOM ON
+•
+Language & stack — whatever you're most productive in
+•
+Scope — you decide v1 vs. future works•
+How literally to interpret "AI"
+Every brief ships with seed data and a minimal starter repo, so your time goes to goes to judgment, not boilerplate.
+REQUIRED DELIVERABLES
+•
+SOLUTION_DESIGN.md (1-2 pages) — problem restated, assumptions, architecture, tradetrade--offs, what you'd do with with more time•
+Working implementation — runs endruns -to-end against the seed seed data for the core flow of of your assigned brief•
+README.md — how to run it, it, gaps, known limitations
+Submit a repo link or zip archive.
+OPTIONAL BONUS TRACK
+•
+A straightforward, non-AI approach is a completely valid vvalid v11
+•
+Optional: an AI enhancement enhancement where it genuinely genuinely fits your brief — embeddings, or an LLM to summarise results in plain English
+A plus signal, never a gate — a non-solution is not penalised.
+Roughly 3-4 focused hours over one week — past 4-5 hours, stop and use the README to say what you'd tackle next.
+
+How the Panel Scores You
+COMMON TO ALL CASE STUDIESDimension
+Weight
+Problem Solving & System Thinking
+15%
+System Design & architecture15%
+Customer & Consulting Mindset
+15%
+Technical Execution
+15%
+Response to Pushback (live defense only)
+15%
+Communication Skills
+10%
+Debugging & Troubleshooting
+10%
+Product & Business Acumen
+5%
+Weighted composite = Σ(weight × rating) / 100
+THE 6-LEVEL SCALE
+1 Entry
+Decisions were essentially guesses
+2 Beginner
+Knows concepts, judgment unreliable
+3 Adv. BeginnerTextbook work on the simple parts
+4 Competent
+Handled realistic scope independently
+5 Proficient
+Reasoned trade-offs; held up under pushback
+6 Expert
+Fluid with ambiguity, scale and PushbackOVERALL RECOMMENDATION
+Strong Fit · Select / Groom
+Hold, need more signal · Not Ready
+Same dimensions, weights and scale for every case study, for hiring and internal selection must cite evidence from the design doc, the code and the live defense.
